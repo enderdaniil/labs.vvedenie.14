@@ -1,11 +1,12 @@
 #include <iostream>
+#include <vector>
 using namespace std;
 int main()
 {
   cout<<"Vvedite N"<<endl;
   int n,k,l;
   cin>>n;
-  float a[n];
+  vector<float> a(n);
   cout<<"Vvedite elemeti massiva"<<endl;
   for (int i=0; i<n; i++)
   {
